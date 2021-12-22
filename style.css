@@ -116,7 +116,7 @@ body{
 .list_item ul{
     align-items: center;
 }
-.list_item li{
+.list_item li {
     display: inline-block;
     color: white;
     list-style: none;
@@ -127,6 +127,10 @@ body{
     font-size: 16px;
     font-weight: 500;
     transition: .5s ease-in;
+}
+.list_item a{
+    text-decoration: none;
+    color:white
 }
 .list_item :hover{
     color: #f3c93e;
